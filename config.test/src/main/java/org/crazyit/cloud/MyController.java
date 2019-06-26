@@ -15,6 +15,7 @@ public class MyController {
 	@GetMapping("/prop")
 	@ResponseBody
 	public String getName() {
+		System.out.println("hello1212");
 		return ctx.getEnvironment().getProperty("test.user.name");
 		
 	}

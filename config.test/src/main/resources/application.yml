@@ -1,3 +1,4 @@
+spring:  profiles: liunxserver:  port: 8888   
 test:
   user:
-    name: augus2
+    name: augus2linux---spring:  profiles: windowsserver:  port: 6666     test:  user:    name: auguswindows          
